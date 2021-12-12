@@ -9,7 +9,9 @@ loaded_model = pickle.load(open(filename, 'rb'))
 def show_predict_page():
     st.title("Chances of Admission Prediction")
 
-    st.write("""#### please fill all below information to predict your chances for admission""")
+    st.write("""### please fill all below information to predict your chances for admission""")
+    st.write("""#### By Ahmed B. Darwish""")
+    st.write("""abdarwish@outlook.com""")
 
     GRE_Score = st.number_input("GRE_score")
     TOEFL_Score = st.number_input("TOEFL_score")
