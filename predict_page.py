@@ -25,6 +25,7 @@ def show_predict_page():
         research = 1
     else:
         research = 0
+    st.write("""###### Example: GRE = 337, TOEFL= 118, Univ_Rating = 4, SOP= 4.5, LOR = 4.5, CGPA = 9.65, research = YES""")
 
 
 
